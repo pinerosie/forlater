@@ -26,4 +26,4 @@
         urllib.request.urlretrieve(  # noqa: S310
             original_size_img, f"{path_name}/original_size_img_{index}.jpg"
         )
-    return index
+    return index#yes
