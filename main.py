@@ -8,8 +8,7 @@
             except ValueError as e:
                 print(repr(e))
                 location = ""
-
-
+#good
     for index, fixed_full_res_image in enumerate(matched_google_full_resolution_images):
         if index >= max_images:
             return index
